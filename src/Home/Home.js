@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import "./Home.css";
 import "animate.css";
 import { ReactComponent as Hero } from "../assets/main-hero.svg";
@@ -29,25 +30,27 @@ const Home = () => {
             </div>
           </div>
           <div className="socials">
-            <a href="https://github.com/RK03ind">
+            <a href="https://github.com/RK03ind" target="_blank">
               <GithubIcon />
             </a>
-            <a href="https://www.linkedin.com/in/rudra-konar">
+            <a href="https://www.linkedin.com/in/rudra-konar" target="_blank">
               <LinkedinIcon />
             </a>
-            <a href="https://twitter.com/rudra_konar">
+            <a href="https://twitter.com/rudra_konar" target="_blank">
               <TwitterIcon />
             </a>
-            <a href="https://discordapp.com/users/780126165872148519">
+            <a
+              href="https://discordapp.com/users/780126165872148519"
+              target="_blank"
+            >
               <DiscordIcon />
             </a>
           </div>
           <div className="resume">
             <a href="https://drive.google.com/uc?export=download&id=10JM7HWbYeqMJ5ZUJHcWdOw5I-FULeiGz">
               <span className="download">Download</span>
+              <span>Resume 😎</span>
             </a>
-
-            <span>Resume 😎</span>
           </div>
         </div>
         <div className="hero-image animate__animated animate__slideInUp">
