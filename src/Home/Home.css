@@ -14,7 +14,7 @@
 
 .intro-container {
   width: fit-content;
-  padding: 0.65em 1.75em;
+  padding: 0.65em 2em;
   border-radius: 50px 50px 50px 0px;
   background-color: var(--secondary-text-color);
 }
@@ -32,7 +32,7 @@
 }
 
 .name {
-  margin-top: 22px;
+  margin-top: 24px;
   font-size: 4em;
 }
 
@@ -110,7 +110,7 @@
 
 @media screen and (max-width: 768px) and (min-width: 600px) {
   .main-home {
-    gap: 1.2em;
+    gap: 1.95em;
   }
 }
 @media screen and (max-width: 768px) {
@@ -125,7 +125,7 @@
   }
   .hero-image svg {
     height: 32vh;
-    width: 95vw;
+    width: 94vw;
     transition-duration: 0.1s;
   }
   .details {
