@@ -66,8 +66,8 @@
 .socials {
   display: flex;
   flex-direction: row;
-  gap: 1.8em;
-  margin-top: 2.6em;
+  gap: 1.9em;
+  margin-top: 2.9em;
 }
 .socials svg {
   height: 24px;
@@ -79,12 +79,13 @@
   flex-direction: row;
   align-items: center;
   gap: 0.6em;
-  margin-top: 1.85em;
+  margin-top: 1.8em;
+  padding-bottom: 1.85em;
 }
 
 .resume span {
   color: var(--primary-text-color);
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 .resume .download {
@@ -119,16 +120,16 @@
     overflow: unset;
   }
   .hero-image {
-    height: 34vh;
+    height: 32vh;
     margin-left: 0em;
   }
   .hero-image svg {
-    height: 34vh;
+    height: 32vh;
     width: 95vw;
     transition-duration: 0.1s;
   }
   .details {
-    height: 56vh;
+    height: 58vh;
     align-items: center;
   }
   .name {
@@ -142,6 +143,6 @@
     align-items: center;
   }
   .socials {
-    margin-top: 2.35em;
+    margin-top: 2.8em;
   }
 }
