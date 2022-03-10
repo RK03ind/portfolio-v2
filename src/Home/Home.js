@@ -29,17 +29,25 @@ const Home = () => {
             </div>
           </div>
           <div className="socials">
-            <GithubIcon />
-            <LinkedinIcon />
-            <TwitterIcon />
-            <DiscordIcon />
+            <a href="https://github.com/RK03ind">
+              <GithubIcon />
+            </a>
+            <a href="https://www.linkedin.com/in/rudra-konar">
+              <LinkedinIcon />
+            </a>
+            <a href="https://twitter.com/rudra_konar">
+              <TwitterIcon />
+            </a>
+            <a href="https://discordapp.com/users/780126165872148519">
+              <DiscordIcon />
+            </a>
           </div>
           <div className="resume">
             <a href="https://drive.google.com/uc?export=download&id=10JM7HWbYeqMJ5ZUJHcWdOw5I-FULeiGz">
               <span className="download">Download</span>
             </a>
 
-            <span>Resume ⬇️</span>
+            <span>Resume 😎</span>
           </div>
         </div>
         <div className="hero-image animate__animated animate__slideInUp">
