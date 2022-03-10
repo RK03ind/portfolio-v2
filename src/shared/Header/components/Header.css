@@ -28,6 +28,7 @@ header {
 
 header .dark-toggle-icon {
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
   margin: 0 4em;
   height: 2.625em;
   width: 2.625em;

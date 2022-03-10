@@ -28,11 +28,11 @@
 .name,
 .role {
   color: var(--primary-text-color);
-  font-family: 600;
+  font-weight: 600;
 }
 
 .name {
-  margin-top: 0.4em;
+  margin-top: 22px;
   font-size: 4em;
 }
 
