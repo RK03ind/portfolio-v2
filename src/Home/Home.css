@@ -1,0 +1,112 @@
+.main-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.details {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-container {
+  width: fit-content;
+  padding: 0.65em 1.75em;
+  border-radius: 50px 50px 50px 0px;
+  background-color: var(--secondary-text-color);
+}
+
+.intro-container span {
+  font-size: 1em;
+  font-weight: 600;
+  color: white;
+}
+
+.name,
+.role {
+  color: var(--primary-text-color);
+  font-family: 600;
+}
+
+.name {
+  margin-top: 0.4em;
+  font-size: 4em;
+}
+
+.role {
+  margin-top: 0.5em;
+  font-size: 1.55em;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3.5em;
+  gap: 1.15em;
+}
+
+.contacts div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.contacts div svg {
+  fill: rgb(147, 147, 150);
+}
+
+.contacts div span {
+  font-size: 0.85em;
+  color: var(--primary-text-color);
+}
+
+.hero-image {
+  height: 60vh;
+  margin-left: 8em;
+}
+
+.hero-image svg {
+  width: 42vw;
+}
+
+@media screen and (max-width: 930px) {
+  .hero-image {
+    height: 60vh;
+    margin-left: 2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-home {
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    overflow: unset;
+  }
+  .hero-image {
+    height: 34vh;
+    margin-left: 0em;
+  }
+  .hero-image svg {
+    height: 34vh;
+    width: 95vw;
+    transition-duration: 0.1s;
+  }
+  .details {
+    height: 56vh;
+    align-items: center;
+  }
+  .name {
+    font-size: 3.2em;
+  }
+  .role {
+    font-size: 1.25em;
+  }
+  .contacts {
+    margin-top: 3.25em;
+    align-items: center;
+  }
+}
