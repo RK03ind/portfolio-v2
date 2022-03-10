@@ -6,6 +6,12 @@
   --animate-delay: 1.5s !important;
 }
 
+:root[dark*="true"] {
+  --background: #161625;
+  --primary-text-color: rgb(189, 189, 189);
+  --github-icon-dark-mode-color: white;
+}
+
 @font-face {
   font-family: "archia";
   src: url("../public/fonts/archia-regular-webfont.eot");

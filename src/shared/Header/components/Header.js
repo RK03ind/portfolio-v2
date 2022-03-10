@@ -1,8 +1,23 @@
 import "./Header.css";
 import { ReactComponent as DarkSwitch } from "../../../assets/darkSwitch.svg";
 import { ReactComponent as BurgerMenuIcon } from "../../../assets/burger-menu.svg";
+import { useEffect, useState } from "react";
 
 const Header = () => {
+  const [themeFlag, setTheme] = useState(
+    document.documentElement.getAttribute("dark") === "true" ? true : false
+  );
+
+  useEffect(() => {
+    document.documentElement.setAttribute("dark", themeFlag);
+  }, [themeFlag]);
+
+  const toggleTheme = () => {
+    setTheme((prevState) => {
+      return prevState === false;
+    });
+  };
+
   return (
     <header>
       <BurgerMenuIcon />
@@ -12,7 +27,7 @@ const Header = () => {
         <span>Blogs</span>
         <span>Projects</span>
       </div>
-      <DarkSwitch />
+      <DarkSwitch onClick={toggleTheme} />
     </header>
   );
 };
