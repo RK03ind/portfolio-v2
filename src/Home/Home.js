@@ -3,6 +3,10 @@ import "animate.css";
 import { ReactComponent as Hero } from "../assets/main-hero.svg";
 import { ReactComponent as MailIcon } from "../assets/mail-icon.svg";
 import { ReactComponent as LocationIcon } from "../assets/location-icon.svg";
+import { ReactComponent as LinkedinIcon } from "../assets/linkedin.svg";
+import { ReactComponent as GithubIcon } from "../assets/github.svg";
+import { ReactComponent as TwitterIcon } from "../assets/twitter.svg";
+import { ReactComponent as DiscordIcon } from "../assets/discord.svg";
 import Header from "../shared/Header/components/Header";
 
 const Home = () => {
@@ -23,6 +27,19 @@ const Home = () => {
             <div>
               <LocationIcon /> <span>Burdwan, WB, India</span>
             </div>
+          </div>
+          <div className="socials">
+            <GithubIcon />
+            <LinkedinIcon />
+            <TwitterIcon />
+            <DiscordIcon />
+          </div>
+          <div className="resume">
+            <a href="https://drive.google.com/uc?export=download&id=10JM7HWbYeqMJ5ZUJHcWdOw5I-FULeiGz">
+              <span className="download">Download</span>
+            </a>
+
+            <span>Resume ⬇️</span>
           </div>
         </div>
         <div className="hero-image animate__animated animate__slideInUp">

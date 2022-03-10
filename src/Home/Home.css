@@ -63,6 +63,32 @@
   font-size: 0.85em;
   color: var(--primary-text-color);
 }
+.socials {
+  display: flex;
+  flex-direction: row;
+  gap: 1.8em;
+  margin-top: 2.6em;
+}
+.socials svg {
+  height: 24px;
+  width: 24px;
+}
+
+.resume {
+  display: flex;
+  flex-direction: row;
+  gap: 0.6em;
+  margin-top: 1.85em;
+}
+
+.resume span {
+  color: var(--primary-text-color);
+  font-size: 1.2em;
+}
+
+.resume .download {
+  color: var(--secondary-text-color);
+}
 
 .hero-image {
   height: 60vh;
@@ -80,6 +106,11 @@
   }
 }
 
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  .main-home {
+    gap: 1.2em;
+  }
+}
 @media screen and (max-width: 768px) {
   .main-home {
     flex-direction: column-reverse;
@@ -108,5 +139,8 @@
   .contacts {
     margin-top: 3.25em;
     align-items: center;
+  }
+  .socials {
+    margin-top: 2.35em;
   }
 }

@@ -6,6 +6,12 @@ header {
   height: 10vh;
 }
 
+.burger-icon {
+  display: none;
+  margin-left: 1.5em;
+  fill: rgb(147, 147, 150);
+}
+
 .header-options {
   display: flex;
   flex-direction: row;
@@ -20,9 +26,23 @@ header {
   color: var(--secondary-text-color);
 }
 
-header svg {
+header .dark-toggle-icon {
   cursor: pointer;
   margin: 0 4em;
   height: 2.625em;
   width: 2.625em;
+}
+
+@media screen and (max-width: 768px) {
+  .burger-icon {
+    display: unset;
+  }
+  .header-options {
+    display: none;
+  }
+
+  header .dark-toggle-icon {
+    margin-left: auto;
+    margin-right: 1em;
+  }
 }
