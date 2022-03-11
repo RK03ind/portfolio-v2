@@ -76,6 +76,7 @@
 
 .resume a {
   display: flex;
+  -webkit-tap-highlight-color: transparent;
   flex-direction: row;
   align-items: baseline;
   gap: 0.6em;

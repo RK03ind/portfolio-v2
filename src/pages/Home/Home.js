@@ -1,14 +1,14 @@
 /* eslint-disable react/jsx-no-target-blank */
 import "./Home.css";
 import "animate.css";
-import { ReactComponent as Hero } from "../assets/main-hero.svg";
-import { ReactComponent as MailIcon } from "../assets/mail-icon.svg";
-import { ReactComponent as LocationIcon } from "../assets/location-icon.svg";
-import { ReactComponent as LinkedinIcon } from "../assets/linkedin.svg";
-import { ReactComponent as GithubIcon } from "../assets/github.svg";
-import { ReactComponent as TwitterIcon } from "../assets/twitter.svg";
-import { ReactComponent as DiscordIcon } from "../assets/discord.svg";
-import Header from "../shared/Header/components/Header";
+import { ReactComponent as Hero } from "../../assets/main-hero.svg";
+import { ReactComponent as MailIcon } from "../../assets/mail-icon.svg";
+import { ReactComponent as LocationIcon } from "../../assets/location-icon.svg";
+import { ReactComponent as LinkedinIcon } from "../../assets/linkedin.svg";
+import { ReactComponent as GithubIcon } from "../../assets/github.svg";
+import { ReactComponent as TwitterIcon } from "../../assets/twitter.svg";
+import { ReactComponent as DiscordIcon } from "../../assets/discord.svg";
+import Header from "../../shared/Header/components/Header";
 
 const Home = () => {
   return (
