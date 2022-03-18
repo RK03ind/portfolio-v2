@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home/Home";
+import Projects from "./pages/Projects/Projects";
 import Header from "./shared/Header/components/Header";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="*" element={<Navigate to="/" />} />
           <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
       </Router>
     </>

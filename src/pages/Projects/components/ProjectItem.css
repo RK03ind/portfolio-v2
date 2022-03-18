@@ -1,0 +1,84 @@
+.project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-text-color);
+  box-shadow: rgb(0 0 0 / 8%) 0px 0px 10px 0px;
+  transition: box-shadow 500ms ease 0s;
+  width: 22em;
+  max-width: 88vw;
+  background-color: white;
+  padding: 1.8em 1.4em;
+  margin: 1.2em 5em;
+}
+
+.project-item:hover {
+  box-shadow: rgb(184 184 217) 0px 10px 50px 0px;
+}
+
+.project-item .title {
+  font-size: 1.35em;
+  font-weight: 900;
+  margin-bottom: 1em;
+}
+
+.project-item .timeline {
+  font-size: 1.14em;
+  font-weight: 600;
+  margin-bottom: 1em;
+  color: var(--secondary-text-color);
+}
+
+.project-item .desc {
+  opacity: 0.9;
+  line-height: 22px;
+}
+
+.techstack-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1.5em 0;
+  width: 100%;
+  gap: 0.45em;
+}
+
+.techstack-container svg {
+  height: 19px;
+  width: 19px;
+}
+
+.techstack-container span {
+  font-weight: 600;
+  font-size: 1.02em;
+  margin-right: 0.15em;
+}
+
+.project-item .button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+}
+
+.project-item .button-container .live {
+  cursor: pointer;
+  background-color: var(--secondary-text-color);
+  color: white;
+  font-family: inherit;
+  border-radius: 8px;
+  padding: 0.8em 1.8em;
+  border: 0;
+}
+
+.project-item .button-container .github {
+  cursor: pointer;
+  background-color: transparent;
+  font-family: inherit;
+  border-radius: 8px;
+  padding: 0.8em 1.8em;
+  color: var(--secondary-text-color);
+  border: 1.8px solid var(--secondary-text-color);
+}
