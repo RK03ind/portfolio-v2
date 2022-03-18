@@ -1,14 +1,22 @@
 :root {
   --background: #eeeeee;
+  --background-item: white;
+  --item-shadow: rgb(0 0 0 / 8%);
+  --item-shadow-hover: rgb(184 184 217);
   --primary-text-color: rgb(82, 88, 92);
   --secondary-text-color: rgb(0, 123, 255);
+  --stack-color: black;
   --animate-duration: 1.5s !important;
   --animate-delay: 1.5s !important;
 }
 
 :root[dark*="true"] {
   --background: #161625;
+  --item-shadow: rgb(0 1 0);
+  --item-shadow-hover: rgb(0 1 0);
+  --background-item: rgb(30, 30, 48);
   --primary-text-color: rgb(189, 189, 189);
+  --stack-color: rgb(0, 123, 255);
   --github-icon-dark-mode-color: white;
 }
 
