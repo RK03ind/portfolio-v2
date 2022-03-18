@@ -48,6 +48,10 @@ body {
   font-family: "archia", sans-serif;
 }
 
+#root {
+  overflow-x: hidden;
+}
+
 * {
   box-sizing: border-box;
 }
