@@ -8,12 +8,10 @@ import { ReactComponent as LinkedinIcon } from "../../assets/linkedin.svg";
 import { ReactComponent as GithubIcon } from "../../assets/github.svg";
 import { ReactComponent as TwitterIcon } from "../../assets/twitter.svg";
 import { ReactComponent as DiscordIcon } from "../../assets/discord.svg";
-import Header from "../../shared/Header/components/Header";
 
 const Home = () => {
   return (
     <>
-      <Header />
       <main className="main-home">
         <div className="details  animate__animated animate__slideInUp">
           <div className="intro-container">
