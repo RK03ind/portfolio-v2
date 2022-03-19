@@ -5,6 +5,7 @@ import {
   Navigate,
 } from "react-router-dom";
 import "./App.css";
+import About from "./pages/About/About";
 import Home from "./pages/Home/Home";
 import Projects from "./pages/Projects/Projects";
 import Header from "./shared/Header/components/Header";
@@ -12,12 +13,13 @@ import Header from "./shared/Header/components/Header";
 function App() {
   return (
     <>
-      <Header />
       <Router>
+        <Header />
         <Routes>
           <Route path="*" element={<Navigate to="/" />} />
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </Router>
     </>

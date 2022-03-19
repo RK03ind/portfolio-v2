@@ -3,6 +3,7 @@ import { ReactComponent as DarkSwitch } from "../../../assets/darkSwitch.svg";
 import { ReactComponent as BurgerMenuIcon } from "../../../assets/burger-menu.svg";
 import { useEffect, useState } from "react";
 import SideMenu from "../../side-menu/components/SideMenu";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [themeFlag, setTheme] = useState(
@@ -34,7 +35,9 @@ const Header = () => {
         <span>Home</span>
         <span>About</span>
         <span>Blogs</span>
-        <span>Projects</span>
+        <Link to="/projects">
+          <span>Projects</span>
+        </Link>
       </div>
       <DarkSwitch onClick={toggleTheme} />
     </header>

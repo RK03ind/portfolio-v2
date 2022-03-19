@@ -109,7 +109,7 @@
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 600px) {
+@media screen and (max-width: 768px) and (min-width: 550px) {
   .main-home {
     gap: 1.95em;
   }
@@ -121,11 +121,11 @@
     overflow: unset;
   }
   .hero-image {
-    height: 32vh;
+    height: 30vh;
     margin-left: 0em;
   }
   .hero-image svg {
-    height: 32vh;
+    height: 30vh;
     width: 94vw;
     transition-duration: 0.1s;
   }

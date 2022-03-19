@@ -20,7 +20,7 @@
   --github-icon-dark-mode-color: white;
 }
 
-@font-face {
+/* @font-face {
   font-family: "archia";
   src: url("../public/fonts/archia-regular-webfont.eot");
   src: url("../public/fonts/archia-regular-webfont.eot?#iefix")
@@ -48,7 +48,7 @@
   font-family: "archia";
   src: url("../public/fonts/archia-bold-webfont.woff2") format("woff2");
   font-weight: 900;
-}
+} */
 
 body {
   margin: 0;
@@ -66,6 +66,8 @@ body {
 
 a {
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  color: inherit;
 }
 
 main {
