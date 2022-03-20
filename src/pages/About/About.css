@@ -36,6 +36,11 @@
   gap: 0.7em;
 }
 
+.skill-item:hover {
+  transform: scale(1.1);
+  transition: transform 0.1s;
+}
+
 .skill-item img {
   height: 70px;
 }
@@ -43,6 +48,16 @@
 .skill-item span {
   font-size: 1.09em;
   font-weight: 600;
+}
+
+@media screen and (min-width: 768px) and (max-width: 968px) {
+  .skill-item-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .skill-item img {
+    height: 65px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -75,16 +90,6 @@
 
   .skill-item img {
     height: 56px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 968px) {
-  .skill-item-container {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .skill-item img {
-    height: 65px;
   }
 }
 

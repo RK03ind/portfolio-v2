@@ -32,8 +32,12 @@ const Header = () => {
       <BurgerMenuIcon onClick={toggleMenu} />
       {isMenuOpen && <SideMenu toggleMenu={toggleMenu} />}
       <div className="header-options">
-        <span>Home</span>
-        <span>About</span>
+        <Link to="/">
+          <span>Home</span>
+        </Link>
+        <Link to="/about">
+          <span>About</span>
+        </Link>
         <span>Blogs</span>
         <Link to="/projects">
           <span>Projects</span>

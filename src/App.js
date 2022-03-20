@@ -8,9 +8,12 @@ import "./App.css";
 import About from "./pages/About/About";
 import Home from "./pages/Home/Home";
 import Projects from "./pages/Projects/Projects";
+import use100vh from "./hooks/use100vh";
 import Header from "./shared/Header/components/Header";
 
 function App() {
+  document.getElementById("burger-menu-root").style.height = use100vh();
+
   return (
     <>
       <Router>

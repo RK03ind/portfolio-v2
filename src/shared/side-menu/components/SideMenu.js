@@ -2,29 +2,39 @@ import ReactDOM from "react-dom";
 import { ReactComponent as CloseButton } from "../../../assets/close.svg";
 import "animate.css";
 import "./SideMenu.css";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const SideMenu = (props) => {
+  const navigate = useNavigate();
+
+  const navigateToPage = (event) => {
+    props.toggleMenu();
+    navigate(`/${event.target.innerText.toLowerCase()}`);
+  };
+
   return ReactDOM.createPortal(
     <>
-      <nav className="animate__animated animate__slideInLeft">
+      <nav
+        className="animate__animated animate__slideInLeft"
+        // style={{ height: use100vh() }}
+      >
         <CloseButton onClick={props.toggleMenu} />
-        <Link to="/">
-          <div className="item" onClick={props.toggleMenu}>
-            Home
-          </div>
-        </Link>
-        <div className="item" onClick={props.toggleMenu}>
+
+        <span className="item" onClick={navigateToPage}>
+          Home
+        </span>
+
+        <span className="item" onClick={navigateToPage}>
           About
-        </div>
-        <div className="item" onClick={props.toggleMenu}>
+        </span>
+
+        <span className="item" onClick={navigateToPage}>
           Blogs
-        </div>
-        <Link to="/projects">
-          <div className="item" onClick={props.toggleMenu}>
-            Projects
-          </div>
-        </Link>
+        </span>
+
+        <span className="item" onClick={navigateToPage}>
+          Projects
+        </span>
       </nav>
     </>,
     document.getElementById("burger-menu-root")
