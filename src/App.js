@@ -12,6 +12,7 @@ import use100vh from "./hooks/use100vh";
 import Header from "./shared/Header/components/Header";
 
 function App() {
+  //solving the 100vh problem in mobile devices
   document.getElementById("burger-menu-root").style.height = use100vh();
 
   return (
