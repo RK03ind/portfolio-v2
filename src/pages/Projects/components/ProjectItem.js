@@ -8,6 +8,7 @@ import { ReactComponent as Firebase } from "../../../assets/firebase-mini.svg";
 import { ReactComponent as Android } from "../../../assets/android-mini.svg";
 import { ReactComponent as Java } from "../../../assets/java-mini.svg";
 import { ReactComponent as Kotlin } from "../../../assets/kotlin-mini.svg";
+import { ReactComponent as JavaScript } from "../../../assets/js-mini.svg";
 import "./ProjectItem.css";
 
 const ProjectItem = (props) => {
@@ -36,6 +37,7 @@ const ProjectItem = (props) => {
         {props.techStack.includes("android") && <Android />}
         {props.techStack.includes("java") && <Java />}
         {props.techStack.includes("kotlin") && <Kotlin />}
+        {props.techStack.includes("javascript") && <JavaScript />}
         {/* {props.techStack.includes("techName") && <Tech-Icon/>}  -> dummy code for displaying tech stack*/}
       </div>
       <div className="button-container">

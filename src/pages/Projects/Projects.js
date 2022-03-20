@@ -7,7 +7,7 @@ const Projects = () => {
       title: "Expense Tracker (PWA)",
       desc: "A very simple Expense Tracker PWA with intiutive expense tracking charts and complete offline working capabilities. Built with ReactJS and Workbox.",
       timeTaken: "Dec 2021",
-      techStack: ["react", "html", "css"],
+      techStack: ["react", "html", "css", "javascript"],
       liveLink: "https://expense-tracker-offline.netlify.app/",
       githubLink: null,
     },
@@ -31,7 +31,7 @@ const Projects = () => {
       title: "Derivative Calculator",
       desc: "Official Android version of a famous derivative calculation website, built with the help of native Android SDK, Java and Kotlin it has support of multiple languages and a whole lot of different features.",
       timeTaken: "Dec 2021 - Jan 2021",
-      techStack: ["java", "kotlin", "android"],
+      techStack: ["java", "kotlin", "android", "javascript"],
       liveLink:
         "https://play.google.com/store/apps/details?id=de.david_scherfgen.derivative_calculator",
       githubLink: "https://www.derivative-calculator.net/",
