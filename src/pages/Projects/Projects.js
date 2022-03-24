@@ -42,8 +42,8 @@ const Projects = () => {
     <main className="main-projects">
       <h2>Some awesome work of mine</h2>
       <div className="project-item-container">
-        {projectData.map((project) => {
-          return <ProjectItem {...project} />;
+        {projectData.map((project, index) => {
+          return <ProjectItem {...project} index={index} />;
         })}
       </div>
     </main>

@@ -21,7 +21,7 @@ const ProjectItem = (props) => {
   };
 
   return (
-    <div className="project-item">
+    <div className="project-item animate__animated slideInUpCustom">
       <div className="title">{props.title}</div>
       <span className="timeline">{props.timeTaken}</span>
       <div className="desc">{props.desc}</div>

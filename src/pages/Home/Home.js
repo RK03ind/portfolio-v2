@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <main className="main-home">
-        <div className="details  animate__animated animate__slideInUp">
+        <div className="details animate__animated slideInUpCustom">
           <div className="intro-container">
             <span>Hello I'm</span>
           </div>
@@ -51,7 +51,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div className="hero-image animate__animated animate__slideInUp">
+        <div className="hero-image animate__animated slideInUpCustom">
           <Hero />
         </div>
       </main>
