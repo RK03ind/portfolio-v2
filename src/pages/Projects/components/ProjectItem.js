@@ -38,7 +38,6 @@ const ProjectItem = (props) => {
         {props.techStack.includes("java") && <Java />}
         {props.techStack.includes("kotlin") && <Kotlin />}
         {props.techStack.includes("javascript") && <JavaScript />}
-        {/* {props.techStack.includes("techName") && <Tech-Icon/>}  -> dummy code for displaying tech stack*/}
       </div>
       <div className="button-container">
         <button className="live" onClick={openLiveDemo}>
