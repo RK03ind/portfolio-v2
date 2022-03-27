@@ -45,7 +45,7 @@ const Home = () => {
             </a>
           </div>
           <div className="resume">
-            <a href="https://drive.google.com/uc?export=download&id=10JM7HWbYeqMJ5ZUJHcWdOw5I-FULeiGz">
+            <a href="https://drive.google.com/uc?export=download&id=1PXR00yMwSkskzeAWvsoatdReHQgxvy7S">
               <span className="download">Download</span>
               <span>Resume ⬇️</span>
             </a>
