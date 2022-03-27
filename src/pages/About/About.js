@@ -70,10 +70,13 @@ const About = () => {
       <div className="about-me">
         <h2>About Me</h2>
         <span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          esse eaque veniam, illo expedita voluptatum, totam recusandae odio
-          natus laborum nisi alias architecto enim, est facere doloremque
-          similique officiis. Recusandae!
+          Hi 👋 <br />
+          I'm Rudra Konar, a 18 year old Web Developer. <br /> I have a serious
+          passion for coding and software development, always open to learn and
+          adapt new technologies. <br /> I am a very good problem solver both in
+          real life and in computers. Currently levelling up my MERN stack
+          knowledge. If you've any project or questions in mind feel free to dm
+          me I'd be happy to discuss 😀
         </span>
       </div>
       <div className="skills">
