@@ -21,7 +21,7 @@ const Home = () => {
           <span className="role">MERN Stack Developer</span>
           <div className="contacts">
             <div>
-              <MailIcon /> <span> gamitech95@gmail.com</span>
+              <MailIcon /> <span>gamitech95@gmail.com</span>
             </div>
             <div>
               <LocationIcon /> <span>Burdwan, WB, India</span>

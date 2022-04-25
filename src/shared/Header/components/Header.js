@@ -38,7 +38,7 @@ const Header = () => {
         <Link to="/about">
           <span>About</span>
         </Link>
-        <span>Blogs</span>
+        <span onClick={() => window.alert("Not yet 😅")}>Blogs</span>
         <Link to="/projects">
           <span>Projects</span>
         </Link>

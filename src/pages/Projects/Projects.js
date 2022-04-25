@@ -9,7 +9,7 @@ const Projects = () => {
       timeTaken: "Dec 2021",
       techStack: ["react", "html", "css", "javascript"],
       liveLink: "https://expense-tracker-offline.netlify.app/",
-      githubLink: null,
+      githubLink: "https://github.com/RK03ind/expense-tracker-pwa",
     },
     {
       title: "Realtime Chat App",
@@ -17,7 +17,7 @@ const Projects = () => {
       timeTaken: "Dec 2021 - Jan 2021",
       techStack: ["react", "html", "css", "firebase"],
       liveLink: "https://livechat1.netlify.app/",
-      githubLink: null,
+      githubLink: "https://github.com/RK03ind/Realtime-Chat",
     },
     {
       title: "Travellers Stash",
@@ -25,7 +25,7 @@ const Projects = () => {
       timeTaken: "Feb 2022 - March 2022",
       techStack: ["react", "express", "mongo", "node"],
       liveLink: "https://travellers-stash.netlify.app/",
-      githubLink: null,
+      githubLink: "https://github.com/RK03ind/Travellers-Stash-Public",
     },
     {
       title: "Derivative Calculator",
