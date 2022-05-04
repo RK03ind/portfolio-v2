@@ -71,12 +71,11 @@ const About = () => {
         <h2>About Me</h2>
         <span>
           Hello World 👋 <br />
-          I'm Rudra Konar, a 18 year old Web Developer. I have a serious passion
-          for coding and software development, and I am always eager to learn
-          and adapt to new technologies. I'm an excellent problem solver in both
-          real life and on computers.
+          I'm Rudra Konar, a 18 year old Web Developer. I've been coding since I
+          was 15 years old. I have a strong interest in software development and
+          am always eager to learn about and adapt to new technologies.
           <br /> <br /> Currently levelling up my MERN stack knowledge and
-          focusing on writing clean, understandable, and high-quality code..
+          focusing on writing clean, understandable, and high-quality code.
           <br />
           If you've any project or questions in mind feel free to DM me I'd be
           happy to discuss 😀
