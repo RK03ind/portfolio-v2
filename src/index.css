@@ -60,9 +60,10 @@ body {
   z-index: 0;
   overflow-x: hidden;
 }
+
 #burger-menu-root {
   z-index: 1;
-  position: absolute;
+  position: fixed;
 }
 
 * {
