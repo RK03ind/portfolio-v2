@@ -3,7 +3,7 @@ header {
   flex-direction: row;
   align-items: center;
   width: 100vw;
-  height: 10vh;
+  height: 12vh;
 }
 
 .burger-icon {
@@ -22,7 +22,28 @@ header {
   color: var(--primary-text-color);
 }
 
-.header-options span:hover {
+.header-options a {
+  position: relative;
+}
+
+.header-options a:before {
+  content: " ";
+  visibility: hidden;
+  width: 0;
+  bottom: 0;
+  transform: translateY(8.5px);
+  position: absolute;
+  height: 3px;
+  background-color: var(--secondary-text-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.header-options a:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+.header-options a:hover {
   color: var(--secondary-text-color);
 }
 
