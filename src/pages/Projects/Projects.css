@@ -11,6 +11,24 @@
   overflow-y: hidden;
   flex-wrap: wrap;
 }
+.projects-switcher {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+}
+
+.projects-switcher h3 {
+  cursor: pointer;
+  font-weight: 600;
+  padding-bottom: 6px;
+  border: 0px;
+  color: rgb(101 106 121);
+}
+
+.projects-switcher h3.active {
+  border-bottom: 3.2px solid;
+  color: var(--secondary-text-color);
+}
 
 .main-projects h2 {
   text-align: center;

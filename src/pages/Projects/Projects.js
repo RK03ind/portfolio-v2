@@ -1,3 +1,4 @@
+import { useState } from "react";
 import ProjectItem from "./components/ProjectItem";
 import "./Projects.css";
 
@@ -38,13 +39,58 @@ const Projects = () => {
     },
   ];
 
+  const neogProjectData = [
+    {
+      title: "Expense Tracker (PWA)",
+      desc: "A very simple Expense Tracker PWA with intiutive expense tracking charts and complete offline working capabilities. Built with ReactJS and Workbox.",
+      timeTaken: "Dec 2021",
+      techStack: ["react", "html", "css", "javascript"],
+      liveLink: "https://expense-tracker-offline.netlify.app/",
+      githubLink: "https://github.com/RK03ind/expense-tracker-pwa",
+    },
+  ];
+
+  const [projectState, setProjectState] = useState(true);
+
+  const switchProjectState = () => setProjectState((prevState) => !prevState);
+
   return (
     <main className="main-projects">
       <h2>Some awesome work of mine</h2>
+      <div className="projects-switcher">
+        <h3
+          className={projectState ? "active" : ""}
+          onClick={switchProjectState}
+        >
+          My Projects
+        </h3>
+        <h3
+          className={!projectState ? "active" : ""}
+          onClick={switchProjectState}
+        >
+          Neog Projects
+        </h3>
+      </div>
       <div className="project-item-container">
-        {projectData.map((project, index) => {
-          return <ProjectItem {...project} index={index} />;
-        })}
+        {projectState
+          ? projectData.map((project, index) => {
+              return (
+                <ProjectItem
+                  {...project}
+                  index={index}
+                  key={`index+${Math.random()}`}
+                />
+              );
+            })
+          : neogProjectData.map((project, index) => {
+              return (
+                <ProjectItem
+                  {...project}
+                  index={index}
+                  key={`index+${Math.random()}`}
+                />
+              );
+            })}
       </div>
     </main>
   );
