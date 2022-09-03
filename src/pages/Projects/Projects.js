@@ -49,7 +49,7 @@ const Projects = () => {
       githubLink: "https://github.com/RK03ind/Do-you-know-me-CLI-Quiz---mark1",
     },
     {
-      title: "Dishonored CLI Quiz (Mark 2)",
+      title: "Dishonored Quiz (Mark 2)",
       desc: "A simple CLI quiz app about Dishonored Game Series. ",
       timeTaken: "September 2022",
       techStack: ["javascript", "node"],
