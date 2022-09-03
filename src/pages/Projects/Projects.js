@@ -46,7 +46,7 @@ const Projects = () => {
       timeTaken: "September 2022",
       techStack: ["javascript", "node"],
       liveLink: "https://replit.com/@RK03ind/DoYouKnowMe#index.js",
-      githubLink: "https://replit.com/@RK03ind/DoYouKnowMe?embed=true#index.js",
+      githubLink: "https://github.com/RK03ind/Do-you-know-me-CLI-Quiz---mark1",
     },
     {
       title: "Dishonored CLI Quiz (Mark 2)",
@@ -54,8 +54,7 @@ const Projects = () => {
       timeTaken: "September 2022",
       techStack: ["javascript", "node"],
       liveLink: "https://replit.com/@RK03ind/Are-you-a-dishonored-fan#index.js",
-      githubLink:
-        "https://replit.com/@RK03ind/Are-you-a-dishonored-fan?embed=true#index.js",
+      githubLink: "https://github.com/RK03ind/Dishonored-CLI-Quiz-App--mark2",
     },
     {
       title: "Minion Translator (Mark 6)",
