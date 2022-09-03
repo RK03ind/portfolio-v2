@@ -41,6 +41,23 @@ const Projects = () => {
 
   const neogProjectsData = [
     {
+      title: "Do you know me? (Mark 1)",
+      desc: "A simple CLI quiz app about me. ",
+      timeTaken: "September 2022",
+      techStack: ["javascript", "node"],
+      liveLink: "https://replit.com/@RK03ind/DoYouKnowMe#index.js",
+      githubLink: "https://replit.com/@RK03ind/DoYouKnowMe?embed=true#index.js",
+    },
+    {
+      title: "Dishonored CLI Quiz (Mark 2)",
+      desc: "A simple CLI quiz app about Dishonored Game Series. ",
+      timeTaken: "September 2022",
+      techStack: ["javascript", "node"],
+      liveLink: "https://replit.com/@RK03ind/Are-you-a-dishonored-fan#index.js",
+      githubLink:
+        "https://replit.com/@RK03ind/Are-you-a-dishonored-fan?embed=true#index.js",
+    },
+    {
       title: "Minion Translator (Mark 6)",
       desc: "Translates standard english to minion language",
       timeTaken: "September 2022",
