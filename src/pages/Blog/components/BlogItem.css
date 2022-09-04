@@ -3,6 +3,7 @@
   flex-direction: column;
   gap: 1.6rem;
   width: 31.25em;
+  min-width: 36vw;
   max-width: 90vw;
   padding: 1.8rem;
   margin: 1rem 0;
@@ -10,6 +11,10 @@
   box-shadow: var(--item-shadow) 0px 0px 12px 0px;
   transition: box-shadow 500ms ease 0s;
   background-color: var(--background-item);
+}
+
+.blog-item:hover {
+  box-shadow: var(--item-shadow-hover) 0px 10px 50px 0px;
 }
 
 .blog-item .info {
