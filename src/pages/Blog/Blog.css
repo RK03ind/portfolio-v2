@@ -11,6 +11,7 @@
 
 .blog-item-container {
   display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
