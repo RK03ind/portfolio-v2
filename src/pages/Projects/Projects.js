@@ -179,7 +179,7 @@ const Projects = () => {
                 <ProjectItem
                   {...project}
                   index={index}
-                  key={`index+${Math.random()}`}
+                  key={`${index}+${project.title}`}
                 />
               );
             })
@@ -188,7 +188,7 @@ const Projects = () => {
                 <ProjectItem
                   {...project}
                   index={index}
-                  key={`index+${Math.random()}`}
+                  key={`${index}+${project.title}`}
                 />
               );
             })}
