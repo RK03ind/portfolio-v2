@@ -1,4 +1,6 @@
+import { useEffect } from "react";
 import { useState } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
 import ProjectItem from "./components/ProjectItem";
 import "./Projects.css";
 
@@ -131,10 +133,27 @@ const Projects = () => {
       githubLink: "https://github.com/RK03ind/Profit-Loss-Calculator--mark14",
     },
   ];
+  const navigate = useNavigate();
+
+  const location = useLocation();
 
   const [projectState, setProjectState] = useState(true);
 
   const switchProjectState = () => setProjectState((prevState) => !prevState);
+
+  useEffect(() => {
+    if (location.hash === "#neog") {
+      setProjectState(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (projectState) {
+      navigate("/projects");
+    } else {
+      navigate("/projects#neog");
+    }
+  }, [navigate, projectState]);
 
   return (
     <main className="main-projects">
