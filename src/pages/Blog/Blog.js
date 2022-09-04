@@ -14,7 +14,7 @@ const Blog = () => {
         "https://rudra-konar.hashnode.dev/the-issue-with-vh-height-in-mobile-browsers",
     },
     {
-      title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      title: "Dummy Blog Item",
       date: "Sep 24,2022",
       readTime: "30 min",
       desc: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
@@ -23,7 +23,7 @@ const Blog = () => {
       extLink: "",
     },
     {
-      title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      title: "Dummy Blog Item",
       date: "Sep 24,2022",
       readTime: "30 min",
       desc: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
@@ -32,43 +32,7 @@ const Blog = () => {
       extLink: "",
     },
     {
-      title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-      date: "Sep 24,2022",
-      readTime: "30 min",
-      desc: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-      Unde, consequuntur, nemo vero reprehenderit illo iste nobis rem quidem sint, 
-      alias voluptatum deserunt magnam aspernatur qui itaque sequi soluta odit pariatur!`,
-      extLink: "",
-    },
-    {
-      title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-      date: "Sep 24,2022",
-      readTime: "30 min",
-      desc: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-      Unde, consequuntur, nemo vero reprehenderit illo iste nobis rem quidem sint, 
-      alias voluptatum deserunt magnam aspernatur qui itaque sequi soluta odit pariatur!`,
-      extLink: "",
-    },
-    {
-      title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-      date: "Sep 24,2022",
-      readTime: "30 min",
-      desc: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-      Unde, consequuntur, nemo vero reprehenderit illo iste nobis rem quidem sint, 
-      alias voluptatum deserunt magnam aspernatur qui itaque sequi soluta odit pariatur!`,
-      extLink: "",
-    },
-    {
-      title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-      date: "Sep 24,2022",
-      readTime: "30 min",
-      desc: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-      Unde, consequuntur, nemo vero reprehenderit illo iste nobis rem quidem sint, 
-      alias voluptatum deserunt magnam aspernatur qui itaque sequi soluta odit pariatur!`,
-      extLink: "",
-    },
-    {
-      title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      title: "Dummy Blog Item",
       date: "Sep 24,2022",
       readTime: "30 min",
       desc: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
