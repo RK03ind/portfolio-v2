@@ -10,6 +10,7 @@ import Home from "./pages/Home/Home";
 import Projects from "./pages/Projects/Projects";
 import use100vh from "./hooks/use100vh";
 import Header from "./shared/Header/components/Header";
+import Blog from "./pages/Blog/Blog";
 
 function App() {
   //solving the 100vh problem in mobile devices
@@ -23,6 +24,7 @@ function App() {
           <Route path="*" element={<Navigate to="/" />} />
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/blogs" element={<Blog />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </Router>

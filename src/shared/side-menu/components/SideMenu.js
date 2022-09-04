@@ -9,7 +9,7 @@ const SideMenu = (props) => {
 
   const navigateToPage = (event) => {
     props.toggleMenu();
-    if (event.target.innerText === "Blogs") return window.alert("Not yet 😅");
+
     navigate(`/${event.target.innerText.toLowerCase()}`);
   };
 

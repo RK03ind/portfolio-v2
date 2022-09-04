@@ -1,0 +1,16 @@
+.main-blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-blog h2 {
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.blog-item-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
