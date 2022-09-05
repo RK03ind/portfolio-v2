@@ -60,7 +60,7 @@ const Projects = () => {
     },
     {
       title: "Portfolio Website and Github (Mark 3,4,5)",
-      desc: "This portofolio website was made last year, visit my github to view the source code of my other projects",
+      desc: "This is my second portfolio site, created in March 2022. You can check the source code this and my earlier projects on github.",
       timeTaken: "-",
       techStack: ["html", "css", "react", "javascript"],
       liveLink: "https://github.com/RK03ind",
