@@ -14,13 +14,13 @@ const Blog = () => {
         "https://rudra-konar.hashnode.dev/the-issue-with-vh-height-in-mobile-browsers",
     },
     {
-      title: "Dummy Blog Item",
-      date: "Sep 24,2022",
-      readTime: "30 min",
-      desc: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-      Unde, consequuntur, nemo vero reprehenderit illo iste nobis rem quidem sint, 
-      alias voluptatum deserunt magnam aspernatur qui itaque sequi soluta odit pariatur!`,
-      extLink: "",
+      title: "How to replicate the behaviour of hooks in class components ?",
+      date: "Sep 6,2022",
+      readTime: "4 min",
+      desc: `This article teaches you how to replicate the behaviour and usage of some very commonly 
+      used Hooks like, useState and useEffect, in React Class Components.To learn it visit my blog in Hashnode and read more.`,
+      extLink:
+        "https://rudra-konar.hashnode.dev/how-to-use-hooks-in-react-class-components",
     },
     {
       title: "Dummy Blog Item",
