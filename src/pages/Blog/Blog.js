@@ -5,7 +5,7 @@ const Blog = () => {
   const blogData = [
     {
       title: "The issue with VH height in mobile browsers",
-      date: "Sep 4,2022",
+      date: "Sep 4, 2022",
       readTime: "3 min",
       desc: `Do you know 100vh in mobile browsers is not equal to 100% of the viewport? 
       it is more than that. Continue reading to understand how to resolve this issue, 
@@ -15,10 +15,11 @@ const Blog = () => {
     },
     {
       title: "How to replicate the behaviour of hooks in class components ?",
-      date: "Sep 6,2022",
+      date: "Sep 6, 2022",
       readTime: "4 min",
       desc: `This article teaches you how to replicate the behaviour and usage of some very commonly 
-      used Hooks like, useState and useEffect, in React Class Components.To learn it visit my blog in Hashnode and read more.`,
+      used Hooks like, useState and useEffect, in React Class Components. 
+      To learn it visit my blog in Hashnode and read more.`,
       extLink:
         "https://rudra-konar.hashnode.dev/how-to-use-hooks-in-react-class-components",
     },
