@@ -59,6 +59,15 @@ const Projects = () => {
       githubLink: "https://github.com/RK03ind/Dishonored-CLI-Quiz-App--mark2",
     },
     {
+      title: "Portfolio Website and Github (Mark 3,4,5)",
+      desc: "This portofolio website was made last year, visit my github to view the source code of my other projects",
+      timeTaken: "-",
+      techStack: ["html", "css", "react", "javascript"],
+      liveLink: "https://github.com/RK03ind",
+      githubLink: "https://github.com/RK03ind/portfolio-v2",
+      button1: "My Github",
+    },
+    {
       title: "Minion Translator (Mark 6)",
       desc: "Translates standard english to minion language",
       timeTaken: "September 2022",
@@ -131,6 +140,16 @@ const Projects = () => {
       techStack: ["html", "css", "javascript"],
       liveLink: "https://stock-rk03.netlify.app/",
       githubLink: "https://github.com/RK03ind/Profit-Loss-Calculator--mark14",
+    },
+    {
+      title: "Linkedin and Blogs (Mark 15)",
+      desc: "Visit my hashnode page to read blogs and linkedin to learn more about me.",
+      timeTaken: "-",
+      techStack: [],
+      liveLink: "https://www.linkedin.com/in/rudra-konar/",
+      githubLink: "/blogs",
+      button1: "My Linkedin",
+      button2: "Read my blogs",
     },
   ];
   const navigate = useNavigate();

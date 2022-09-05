@@ -41,10 +41,10 @@ const ProjectItem = (props) => {
       </div>
       <div className="button-container">
         <button className="live" onClick={openLiveDemo}>
-          Live Demo
+          {props.button1 ? props.button1 : "Live Demo"}
         </button>
         <button className="github" onClick={openGithubLink}>
-          View Source
+          {props.button2 ? props.button2 : "View Source"}
         </button>
       </div>
     </div>

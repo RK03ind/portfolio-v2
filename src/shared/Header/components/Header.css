@@ -47,6 +47,10 @@ header {
   color: var(--secondary-text-color);
 }
 
+.header-options a.active {
+  color: var(--secondary-text-color);
+}
+
 header .dark-toggle-icon {
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
