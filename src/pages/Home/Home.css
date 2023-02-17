@@ -64,6 +64,11 @@
   font-size: 0.85em;
   color: var(--primary-text-color);
 }
+
+.contacts > .email {
+  cursor: pointer;
+}
+
 .socials {
   display: flex;
   flex-direction: row;

@@ -20,10 +20,17 @@ const Home = () => {
           <span className="name">Rudra Konar</span>
           <span className="role">Frontend Developer</span>
           <div className="contacts">
-            <div>
-              <MailIcon /> <span>gamitech95@gmail.com</span>
+            <div className="email">
+              <MailIcon />
+              <span
+                onClick={() =>
+                  (window.location = "mailto:contact@rudrakonar.dev")
+                }
+              >
+                contact@rudrakonar.dev
+              </span>
             </div>
-            <div>
+            <div className="location">
               <LocationIcon /> <span>Burdwan, WB, India</span>
             </div>
           </div>
