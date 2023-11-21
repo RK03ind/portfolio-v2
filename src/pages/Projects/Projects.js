@@ -35,7 +35,7 @@ const Projects = () => {
       desc: "A Realtime Chat WebApp built with ReactJS, Firebase and MUI Library including User Authentication, complete CRUD operations and multiple features.",
       timeTaken: "Dec 2022 - Jan 2023",
       techStack: ["react", "html", "css", "firebase"],
-      liveLink: "https://livechat1.netlify.app/",
+      liveLink: "https://firechat.rudrakonar.dev/",
       githubLink: "https://github.com/RK03ind/Realtime-Chat",
     },
     {
