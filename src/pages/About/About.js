@@ -71,7 +71,7 @@ const About = () => {
         <h2>About Me</h2>
         <span>
           Hello World 👋 <br />
-          I'm Rudra Konar, a 19 year old Web Developer. I've been coding since I
+          I'm Rudra Konar, a 21 year old Web Developer. I've been coding since I
           was 15 years old. I have a strong interest in software development and
           am always eager to learn about and adapt to new technologies.
           <br /> <br /> Currently levelling up my Web Development knowledge and

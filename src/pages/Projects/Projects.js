@@ -17,7 +17,7 @@ const Projects = () => {
     {
       title: "Movie List",
       desc: "A MERN Stack based Web App for viewing & searching trending/old movies and making watchlists with them.",
-      timeTaken: "March 2023 - April 2023",
+      timeTaken: "March 2023 - March 2023",
       techStack: ["react", "express", "mongo", "node"],
       liveLink: "https://movie-list.rudrakonar.dev/",
       githubLink: "https://github.com/RK03ind/movie-list-public",
@@ -185,7 +185,7 @@ const Projects = () => {
   return (
     <main className="main-projects">
       <h2>Some awesome work of mine</h2>
-      <div className="projects-switcher">
+      {/* <div className="projects-switcher">
         <h3
           className={projectState ? "active" : ""}
           onClick={switchProjectState}
@@ -198,7 +198,7 @@ const Projects = () => {
         >
           Neog Projects
         </h3>
-      </div>
+      </div> */}
       <div className="project-item-container">
         {projectState
           ? projectsData.map((project, index) => {
